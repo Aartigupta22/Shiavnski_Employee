@@ -9,7 +9,8 @@ Secure Access: Use JWT (JSON Web Tokens) for secure login and access.
 Data Integrity: Employees are linked to departments using foreign keys in the database.
 
 <h2>API Endpoints<h2>
-  
+
+<h6>
 Authentication:
 POST /authenticate - To validate user and generate the token.
   
@@ -26,7 +27,7 @@ GET /departments/{departmentId} - Get a specific department.
 POST /departments - Add a new department.
 PUT /departments/{departmentId} - Update a department.
 DELETE /departments/{departmentId}- Delete a department.
-
+</h6>
 <h2>Security</h2>
 This system uses JWT tokens to secure the API. Make sure to keep tokens safe and refresh them as needed.
 
